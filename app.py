@@ -4,8 +4,6 @@ import json
 
 app = Flask(__name__)
 
-client_id = 'U5bmVPGfipJQmITKdSur'
-client_secret = 'yqwLR12hLh'
 
 @app.route("/")
 def hello_world():
